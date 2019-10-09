@@ -1,0 +1,226 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+h1{
+    color: darkturquoise;
+    text-align: center;
+}
+h4{
+    color: darkturquoise;
+    text-align: center;
+}
+h2{
+    text-align: initial;
+    margin: 30px;
+    display: inline-flex;
+    color: white;
+}
+.button0{
+    float: right;
+    margin-top: 20px;
+    background-color:darkturquoise; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button1{
+
+    background-color: darkturquoise; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 142px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button2{
+    background-color: darkturquoise; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 142px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button3{
+
+    background-color: darkturquoise; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 142px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button4{
+
+    background-color: darkturquoise; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 142px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+p {
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 88vh;
+    background-color: #000;
+    background-color: darkturquoise;
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
+  input{
+    text-align: left;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 7px 7px;
+    border-radius: 4px;
+  }
+    
+
+@media (min-width: 1281px) {
+  
+    /* //CSS */
+    .left-side-panel{
+        float: left;
+        /* width: 25%; */
+        width: 300px;
+        background: #383838;
+        height: -webkit-fill-available;
+        border: 2px double #edeae4;
+    }
+    .right-side-panel{
+        width: -webkit-fill-available;
+        background: #383838;
+        height: -webkit-fill-available;
+        border: 2px double #b8b6b3;
+        margin-left: 306px;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* //CSS */
+    .left-side-panel{
+        float: left;
+        /* width: 25%; */
+        width: 300px;
+        background: #383838;
+        height: -webkit-fill-available;
+        border: 2px double #edeae4;
+    }
+    .right-side-panel{
+        width: -webkit-fill-available;
+        background: #383838;
+        height: -webkit-fill-available;
+        border: 2px double #b8b6b3;
+        margin-left: 306px;
+    }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    
+    /* //CSS */
+    .left-side-panel{
+        float: left;
+        /* width: 25%; */
+        width: 300px;
+        background: #383838;
+        height: -webkit-fill-available;
+        border: 2px double #edeae4;
+    }
+    .right-side-panel{
+        width: -webkit-fill-available;
+        background: #383838;
+        height: -webkit-fill-available;
+        border: 2px double #b8b6b3;
+        margin-left: 306px;
+    }
+        
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* //CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* //CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* //CSS */
+    
+  }

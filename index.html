@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Responsive Page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style/style.css'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'> -->
+    <!-- <script src='main.js'></script> -->
+</head>
+<script>
+        function myFunction() {
+          document.getElementById("demo").innerHTML = "Shining Text Animation Effects";
+        }
+        function myFunction1() {
+          document.getElementById("demo").innerHTML = "A";
+        }
+        function myFunction2() {
+          document.getElementById("demo").innerHTML = "B";
+        }
+        function myFunction3() {
+          document.getElementById("demo").innerHTML = "C";
+        }
+        function myFunction4() {
+          document.getElementById("demo").innerHTML = "D";
+        }
+</script>
+<body>
+    <div class="left-side-panel">
+        <h1>Dashboard</h1>
+        <hr>
+        <input type="text" placeholder="Search">
+        <hr>
+        <br>
+        <button class="button1" onclick="myFunction1()">A</button><br>
+        <button class="button2" onclick="myFunction2()">B</button><br>
+        <button class="button3" onclick="myFunction3()">C</button><br>
+        <button class="button4" onclick="myFunction4()">D</button><br>
+        <!-- <h4>B</h4><br>
+        <h4>C</h4><br>
+        <h4>D</h4> -->
+    </div>
+    <div class="right-side-panel">
+        <h2>Charts</h2>
+        <button class="button0" style="margin-top: 20px; margin-right: 20px;" onclick="myFunction()">Display</button>
+        <hr style="margin-top: -6px;">
+        <p id="demo"></p>
+        <!-- <p id="demo"></p>
+        <p id="demo"></p>
+        <p id="demo"></p>
+        <p id="demo"></p> -->
+        <!-- <p id="demo">Shining Text Animation Effects</p> -->
+    </div>
+</body>
+</html>
